@@ -4,6 +4,16 @@ This repository is a brief description of the work I did during my Summer Intern
 
 ## Introduction
 
+Data-to-text systems are systems that generates texts from non-linguistic input data. Such systems needs to perform data analysis as well as linguistic processing. Data-to-text systems are powerful in generating reports from data automatically and thus they simplify the representation of complex data with numerous datapoint.
+<br /><br />
+Data-to-text Systems are primarily comprised of two sub-systems:
+<br /><br />
+1.	Numerical Insights Extraction
+2.	Natural Language Generation
+<br /><br />
+The architecture of a typical data-to-text system is shown below:
+<IMG Src='Images/d2t.jpg' Align='Centre'></IMG>
+
 ### Insights Extraction
 
 ### Natural Language Generation
