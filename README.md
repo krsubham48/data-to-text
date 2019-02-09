@@ -16,6 +16,7 @@ The architecture of a typical data-to-text system is shown below:
 <p Align="Centre">
 	<IMG Src="Images/d2t.jpg"></IMG>
 </p>
+
 ### Insights Extraction
 
 ### Natural Language Generation
