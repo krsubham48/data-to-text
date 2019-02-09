@@ -17,3 +17,13 @@ This repository is a brief description of the work I did during my Summer Intern
 ## Conclusion
 
 ## References
+
+[1] Hadi Banaee, Mobyen Uddin Ahmed, Amy Loutfi, *A Framework for Automatic Text Generation of Trends in Physiological Time Series Data*, 2013 IEEE International Conference on Systems, Man and Cybernetics
+[2] Albert Gatt and Ehud Reiter, *SimpleNLG: A realisation engine for practical applications*, University of Aberdeen
+[3] Ehud Reiter, *An Architecture for Data-to-Text Systems*, University of Aberdeen
+[4] Kedar Dhamdhere, Kevin S. McCurley, Ralfi Nahmias, Mukund Sundararajan, Qiqi Yan, *Analyza: Exploring Data with Conversation*, Google Research
+[5] English Corner, *How to describe trend?*, Hong Kong Institute of Accredited Accounting Technicians
+[6] Seniz Demir, Sandra Carberry, Kathleen F. McCoy, *Summarizing Information Graphics Textually*, MIT Journal
+[6] The Handbook of Computational Linguistics and Natural Language Processing
+[7] Chris Venour and Ehud Reiter, *A tutorial for simplenlg*
+[8] Daniel Jurafsky and James H. Martin, *Speech and Language Processing*
