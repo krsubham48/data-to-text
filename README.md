@@ -13,8 +13,9 @@ Data-to-text Systems are primarily comprised of two sub-systems:
 <br /><br />
 The architecture of a typical data-to-text system is shown below:
 <br />
-<IMG Src="Images/d2t.jpg"></IMG>
-
+<p Align="Centre">
+	<IMG Src="Images/d2t.jpg"></IMG>
+</p>
 ### Insights Extraction
 
 ### Natural Language Generation
