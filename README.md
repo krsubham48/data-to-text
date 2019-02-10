@@ -19,6 +19,18 @@ The architecture of a typical data-to-text system is shown below:
 
 ### Insights Extraction
 
+The data science part of a data-to-text system is responsible for performing mathematical calculations, preprocessing and other useful operations to extract the valuable information from raw data. This part outputs all the events and anomalies in data which acts as an input for the NLG system. NLG system then performs several tasks and make certain choices to output the necessary informations.
+<br />
+Data Science part do not perform a pre-defined specific pipeline to get to the result. The steps performed depends on the type of data, its distribution etc. Some of the common techniques that are generally performed are:
+<br />
+1.	Data Cleaning:  This involves preliminary examination of data, handling the missing data points and treatment of anomalies. This step generally involves choices like filling the missing data point with mean of data, median etc or simply remove the complete row. <br />
+2.	Data Visualisation and Preprocessing:  This involves visualising the input data, perform basic mathematical analysis and take the required steps to further clean the data and make it available for different algorithms. Intuition also plays a role in this. <br />
+3.	Feature Engineering:  This is useful when there is a possibility to create a new feature based on the existing features and this new feature can be used in steps ahead. Basic feature engineering steps include addition of two columns, taking log of two columns etc. The final feature created depends on the data available and the output required. <br />
+4.	Statistical Techniques:  Basic statistical operations like calculation of mean and standard deviations are performed in this step to get an insight about the hidden information in data.<br />
+5.	Machine Learning:  Several supervised, unsupervised or reinforcement learning methods can be applied(like Decision Tree, k-means clustering, KNN etc) on preprocesses data depending upon the needs and requirement of the results.<br />
+6.	Deep Learning:  If the data is in plenty and the preprocessing has been done well, deep learning algorithms(like CNNs, LSTMs etc) can also be applied to capture finer details and pattern from the data. <br />
+ Depending on the needs, some or all of the steps mentioned above are performed on data. The end output of the data-to-text system is a set of important events in the data. This output is fed into a Natural Language Generation system for further shortlisting and hence, to create a textual summary of data in human language.
+
 ### Natural Language Generation
 
 Natural Language Generation systems aims at providing insights by processing huge chunks of data and generation a Human Readable textual summary. In NLG, system needs to make decisions about how to put concepts into words.
