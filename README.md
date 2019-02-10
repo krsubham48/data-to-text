@@ -22,18 +22,18 @@ The architecture of a typical data-to-text system is shown below:
 ### Natural Language Generation
 
 Natural Language Generation systems aims at providing insights by processing huge chunks of data and generation a Human Readable textual summary. In NLG, system needs to make decisions about how to put concepts into words.
-<br /><br />
-Natural Language Generation systems are not simply Natural Language Understanding systems run “in-reverse”. One of the most prominent difference between NLG and other types of NLP is the central role of choice making. Choice making is more central to NLG than other areas of NLP.
-<br /><br />
-Different Natural Language Generation tasks are:
 <br />
+Natural Language Generation systems are not simply Natural Language Understanding systems run “in-reverse”. One of the most prominent difference between NLG and other types of NLP is the central role of choice making. Choice making is more central to NLG than other areas of NLP.
+<br />
+Different Natural Language Generation tasks are:
+
 #### Document Planner  
 
 Document Planner step involves the following: <br />
 1.	Content Determination: This decides what information to communicate in the text <br />
 2.	Document Structuring: This decides how this information is organised in the generated text  
-<br /><br />
-The input to document planner is the input to entire NLG system. The output of document planner is a tree of messages. Messages are chunks of information(extracted from input data) which can be linguistically expressed as a clause or phrase. The edges of the tree are often used to represent rhetorical relations between messages. <br />
+<br />
+The input to document planner is the input to entire NLG system. The output of document planner is a tree of messages. Messages are chunks of information(extracted from input data) which can be linguistically expressed as a clause or phrase. The edges of the tree are often used to represent rhetorical relations between messages. 
 
 #### Micro-planning  
 
@@ -42,10 +42,12 @@ Micro-planning deals with how information is linguistically expressed in generat
 2.	Referring: choosing referring expressions to identify domain entities <br />
 3.	Syntactic choice: syntactic structure in generated text sentence <br />
 4.	Aggregation:  choosing how many messages should be expressed in each sentence  <br /><br />
-The input to micro-planner is the document plan. The output of the micro-planner is the text specification. Essentially this is a tree whose internal nodes specifying document structure(eg: paragraph) and whose leaf node specify deep syntactic structures of sentences. Micro-planning requires an NLG system to make decision about the best way to linguistically express information. <br /><br />
+The input to micro-planner is the document plan. The output of the micro-planner is the text specification. Essentially this is a tree whose internal nodes specifying document structure(eg: paragraph) and whose leaf node specify deep syntactic structures of sentences. Micro-planning requires an NLG system to make decision about the best way to linguistically express information. 
+
 #### Realisation  
+
 The realiser generates the Surface form(actual form) based on the information selected by the document planning and the linguistic choice made by micro-planner. Realiser connects the different parts of sentences by making the required changes and adding the required features.
-<br /><br />
+<br />
 There are some methods for evaluation of the generated text by an NLG system like **BLEU**(Bilingual Evaluation Understudy) but the best method by far is Human evaluation. Extrinsic evaluation or metric based corpus evaluation are based on pattern matching or comparisons with reference text. These scores are good to get a preliminary idea of how the model is performing but not to present end results. A human evaluator can present diversity and make changes as required to make the system perform better.
 
 ## Problem
