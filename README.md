@@ -72,19 +72,19 @@ Cuddle shows answers to a user’s query in one of the four visualisations menti
 <br />
 1.	Number:  This method of visualisation displays an answer by showing a numeric value <br />
 <p Align="Centre">
-	<IMG Src="Images/a1.jpg"></IMG>
+	<IMG Src="Images/d1.jpg"></IMG>
 </p>
 2.	Trend:  This visualisation shows answer in the form of a trend chart distributed across time axis. It shows the variation of time series data over time<br />
 <p Align="Centre">
-	<IMG Src="Images/a2.jpg"></IMG>
+	<IMG Src="Images/d2.jpg"></IMG>
 </p>
 3.	Bar:  Bar visualisation is helpful for comparison among different entities across a particular quantity 
 <p Align="Centre">
-	<IMG Src="Images/a3.jpg"></IMG>
+	<IMG Src="Images/d3.jpg"></IMG>
 </p>
 4.	Table:  This shows the answer in the form of a table
 <p Align="Centre">
-	<IMG Src="Images/a4.jpg"></IMG>
+	<IMG Src="Images/d4.jpg"></IMG>
 </p>
 Cuddle is smart enough to choose the best representation among these different kinds of visualisations present.
 <br />
