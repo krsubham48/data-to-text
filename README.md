@@ -10,7 +10,6 @@ Data-to-text Systems are primarily comprised of two sub-systems:
 <br />
 1.	Numerical Insights Extraction
 2.	Natural Language Generation
-<br />
 The architecture of a typical data-to-text system is shown below:
 <br />
 <p Align="Centre">
@@ -41,7 +40,7 @@ Micro-planning deals with how information is linguistically expressed in generat
 1.	Lexical choice: choosing which concept word to use to express domain concepts and data <br />
 2.	Referring: choosing referring expressions to identify domain entities <br />
 3.	Syntactic choice: syntactic structure in generated text sentence <br />
-4.	Aggregation:  choosing how many messages should be expressed in each sentence  <br /><br />
+4.	Aggregation:  choosing how many messages should be expressed in each sentence  <br />
 The input to micro-planner is the document plan. The output of the micro-planner is the text specification. Essentially this is a tree whose internal nodes specifying document structure(eg: paragraph) and whose leaf node specify deep syntactic structures of sentences. Micro-planning requires an NLG system to make decision about the best way to linguistically express information. 
 
 #### Realisation  
