@@ -54,6 +54,7 @@ Micro-planning deals with how information is linguistically expressed in generat
 2.	Referring: choosing referring expressions to identify domain entities <br />
 3.	Syntactic choice: syntactic structure in generated text sentence <br />
 4.	Aggregation:  choosing how many messages should be expressed in each sentence  <br /><br />
+
 The input to micro-planner is the document plan. The output of the micro-planner is the text specification. Essentially this is a tree whose internal nodes specifying document structure(eg: paragraph) and whose leaf node specify deep syntactic structures of sentences. Micro-planning requires an NLG system to make decision about the best way to linguistically express information. 
 
 #### Realisation  
@@ -97,8 +98,8 @@ Data-to-Text systems has two parts, Data Science and NLG realisation.
 <br />
 #### Data Science  
 
-This part is responsible for recognising useful events in the data. Several approaches like ARIMA models, neural networks etc were experimented upon and the final algorithm used is an ensemble of several algorithms. The final algorithm successfully captures trend in data to a reasonable extend and satisfactory results are obtained.  <br /><br />
-The steps involved for complete trend analysis are:  <br /><br />
+This part is responsible for recognising useful events in the data. Several approaches like ARIMA models, neural networks etc were experimented upon and the final algorithm used is an ensemble of several algorithms. The final algorithm successfully captures trend in data to a reasonable extend and satisfactory results are obtained.  <br />
+The steps involved for complete trend analysis are:  <br />
 1.	Moving Average is used to smoothen the data<br />
 2.	The complete data is divided into several smaller  segments and the number of segments  depends upon the size of data<br />
 3.	Linear regression is applied on each of the segment for  partial trend detection <br />
