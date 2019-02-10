@@ -2,6 +2,15 @@
 
 This repository is a brief description of the work I did during my Summer Internship at [cuddle.ai](http://www.cuddle.ai), a subsidiary of [Fractal Analytics Pvt. Ltd.](https://fractalanalytics.com). I cannot share the codes due to the Non-Disclosure Agreement signed. The Problem presented, the Approach I took and the Results obtained is displayed below.
 
+## Contents
+
+1.	[Introduction](#Introduction)
+2.	[Problem](#Problem)
+3.	[Approach](#Approach)
+4.	[Results](#Results)
+5.	[Conclusion](#Conclusion)
+6.	[References](#References)
+
 ## Introduction
 
 Data-to-text systems are systems that generates texts from non-linguistic input data. Such systems needs to perform data analysis as well as linguistic processing. Data-to-text systems are powerful in generating reports from data automatically and thus they simplify the representation of complex data with numerous datapoint.
