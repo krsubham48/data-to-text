@@ -72,7 +72,7 @@ The realiser generates the Surface form(actual form) based on the information se
 <br /><br />
 There are some methods for evaluation of the generated text by an NLG system like **BLEU**(Bilingual Evaluation Understudy) but the best method by far is Human evaluation. Extrinsic evaluation or metric based corpus evaluation are based on pattern matching or comparisons with reference text. These scores are good to get a preliminary idea of how the model is performing but not to present end results. A human evaluator can present diversity and make changes as required to make the system perform better.
 
-## Problem
+## [Problem](#Contents)
 
 #### To create a Data-to-Text system for cuddle.ai
 
@@ -101,7 +101,7 @@ Cuddle is smart enough to choose the best representation among these different k
 <br /><br />
 The problem on which I got to work upon during my internship was to create a Title and a human language textual Summary of all the different kinds of visualisations shown above i.e., creation of a Data-to-Text system for cuddle.ai  Visualisations are good for representing data(compared to raw form), but they too miss most of the useful insights until studied carefully. Having a Title for what is displayed on the screen and a crisp and useful summary will prove to be very helpful for users to take important business decisions efficiently in lesser amount of time
 
-## Approach
+## [Approach](#Contents)
 
 Data-to-Text systems has two parts, Data Science and NLG realisation.
 <br />
@@ -151,7 +151,7 @@ The realisation part converts the representation words and phrases in the micro-
 All the codes to implement above algorithms is written in java. The simplenlg library is used for Natural Language Generation.
 
 
-## Results
+## [Results](#Contents)
 
 <p Align="Centre">
 	<IMG Src="Images/rn1.jpg"></IMG>
@@ -172,7 +172,7 @@ All the codes to implement above algorithms is written in java. The simplenlg li
 	<IMG Src="Images/rt2.jpg"></IMG>
 </p>
 
-## Conclusion
+## [Conclusion](#Contents)
 
 Data-to-Text Systems are extremely useful. Large amount of data is generated on daily basis and its hard for a human to handle such amount of data in less time. Data-to-Text Systems acts as a bridge between huge amount of available data and the hidden insights within.
 <br /><br />
@@ -180,7 +180,7 @@ The data-to-text system created during my internship gives can act as a start to
 <br /><br />
 The system created has a large scope for improvement. The sentences generated can be reframed to be more presentable and useful for business purpose. An extensive survey about the expected output can be useful to get a more clear vision about future works. More relevant words can be added to the dictionary to provide more variety in generated text. The type of statistical information displayed can be varied depending upon the business requirements and use.  The implemented Data-to-Text system is seen to capture insights that are difficult to recognise by merely seeing the visualisation and it is impossible to capture by seeing just the raw data. The system automatically forms easily readable sentences when just the key words and phrases are provided. The rules of grammar are handled with reasonable accuracy.
 
-## References
+## [References](#Contents)
 
 [1] Hadi Banaee, Mobyen Uddin Ahmed, Amy Loutfi, *A Framework for Automatic Text Generation of Trends in Physiological Time Series Data*, 2013 IEEE International Conference on Systems, Man and Cybernetics<br />
 [2] Albert Gatt and Ehud Reiter, *SimpleNLG: A realisation engine for practical applications*, University of Aberdeen<br />
