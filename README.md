@@ -23,12 +23,12 @@ The data science part of a data-to-text system is responsible for performing mat
 <br />
 Data Science part do not perform a pre-defined specific pipeline to get to the result. The steps performed depends on the type of data, its distribution etc. Some of the common techniques that are generally performed are:
 <br />
-1.	Data Cleaning:  This involves preliminary examination of data, handling the missing data points and treatment of anomalies. This step generally involves choices like filling the missing data point with mean of data, median etc or simply remove the complete row. <br />
-2.	Data Visualisation and Preprocessing:  This involves visualising the input data, perform basic mathematical analysis and take the required steps to further clean the data and make it available for different algorithms. Intuition also plays a role in this. <br />
-3.	Feature Engineering:  This is useful when there is a possibility to create a new feature based on the existing features and this new feature can be used in steps ahead. Basic feature engineering steps include addition of two columns, taking log of two columns etc. The final feature created depends on the data available and the output required. <br />
-4.	Statistical Techniques:  Basic statistical operations like calculation of mean and standard deviations are performed in this step to get an insight about the hidden information in data.<br />
-5.	Machine Learning:  Several supervised, unsupervised or reinforcement learning methods can be applied(like Decision Tree, k-means clustering, KNN etc) on preprocesses data depending upon the needs and requirement of the results.<br />
-6.	Deep Learning:  If the data is in plenty and the preprocessing has been done well, deep learning algorithms(like CNNs, LSTMs etc) can also be applied to capture finer details and pattern from the data. <br />
+1.	Data Cleaning:   This involves preliminary examination of data, handling the missing data points and treatment of anomalies. This step generally involves choices like filling the missing data point with mean of data, median etc or simply remove the complete row. <br />
+2.	Data Visualisation and Preprocessing:   This involves visualising the input data, perform basic mathematical analysis and take the required steps to further clean the data and make it available for different algorithms. Intuition also plays a role in this. <br />
+3.	Feature Engineering:   This is useful when there is a possibility to create a new feature based on the existing features and this new feature can be used in steps ahead. Basic feature engineering steps include addition of two columns, taking log of two columns etc. The final feature created depends on the data available and the output required. <br />
+4.	Statistical Techniques:   Basic statistical operations like calculation of mean and standard deviations are performed in this step to get an insight about the hidden information in data.<br />
+5.	Machine Learning:   Several supervised, unsupervised or reinforcement learning methods can be applied(like Decision Tree, k-means clustering, KNN etc) on preprocesses data depending upon the needs and requirement of the results.<br />
+6.	Deep Learning:   If the data is in plenty and the preprocessing has been done well, deep learning algorithms(like CNNs, LSTMs etc) can also be applied to capture finer details and pattern from the data. <br />
  Depending on the needs, some or all of the steps mentioned above are performed on data. The end output of the data-to-text system is a set of important events in the data. This output is fed into a Natural Language Generation system for further shortlisting and hence, to create a textual summary of data in human language.
 
 ### Natural Language Generation
@@ -63,6 +63,32 @@ The realiser generates the Surface form(actual form) based on the information se
 There are some methods for evaluation of the generated text by an NLG system like **BLEU**(Bilingual Evaluation Understudy) but the best method by far is Human evaluation. Extrinsic evaluation or metric based corpus evaluation are based on pattern matching or comparisons with reference text. These scores are good to get a preliminary idea of how the model is performing but not to present end results. A human evaluator can present diversity and make changes as required to make the system perform better.
 
 ## Problem
+
+#### To create a Data-to-Text system for cuddle.ai
+
+Cuddle.ai is a Business Analysis platform which provides personalised assistance about your business. It is a Fractal Analytics product. Cuddle understands major business related questions and answers them effortlessly, thus providing a clear insight in almost insignificant amount of time. Cuddle saves time and effort by answering questions that a user can possibly have about their business.
+<br />
+Cuddle shows answers to a user’s query in one of the four visualisations mentioned below:
+<br />
+1.	Number:  This method of visualisation displays an answer by showing a numeric value <br />
+<p Align="Centre">
+	<IMG Src="Images/a1.jpg"></IMG>
+</p>
+2.	Trend:  This visualisation shows answer in the form of a trend chart distributed across time axis. It shows the variation of time series data over time<br />
+<p Align="Centre">
+	<IMG Src="Images/a2.jpg"></IMG>
+</p>
+3.	Bar:  Bar visualisation is helpful for comparison among different entities across a particular quantity 
+<p Align="Centre">
+	<IMG Src="Images/a3.jpg"></IMG>
+</p>
+4.	Table:  This shows the answer in the form of a table
+<p Align="Centre">
+	<IMG Src="Images/a4.jpg"></IMG>
+</p>
+Cuddle is smart enough to choose the best representation among these different kinds of visualisations present.
+<br />
+The problem on which I got to work upon during my internship was to create a Title and a human language textual Summary of all the different kinds of visualisations shown above i.e., creation of a Data-to-Text system for cuddle.ai  Visualisations are good for representing data(compared to raw form), but they too miss most of the useful insights until studied carefully. Having a Title for what is displayed on the screen and a crisp and useful summary will prove to be very helpful for users to take important business decisions efficiently in lesser amount of time
 
 ## Approach
 
