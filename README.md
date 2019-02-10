@@ -28,13 +28,15 @@ Natural Language Generation systems are not simply Natural Language Understandin
 Different Natural Language Generation tasks are:
 <br />
 #### Document Planner  
+
 Document Planner step involves the following: <br />
 1.	Content Determination: This decides what information to communicate in the text <br />
 2.	Document Structuring: This decides how this information is organised in the generated text  
 <br /><br />
 The input to document planner is the input to entire NLG system. The output of document planner is a tree of messages. Messages are chunks of information(extracted from input data) which can be linguistically expressed as a clause or phrase. The edges of the tree are often used to represent rhetorical relations between messages. <br />
-<br />
+
 #### Micro-planning  
+
 Micro-planning deals with how information is linguistically expressed in generated text. This involves four parts: <br />
 1.	Lexical choice: choosing which concept word to use to express domain concepts and data <br />
 2.	Referring: choosing referring expressions to identify domain entities <br />
