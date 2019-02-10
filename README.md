@@ -144,6 +144,25 @@ All the codes to implement above algorithms is written in java. The simplenlg li
 
 ## Results
 
+<p Align="Centre">
+	<IMG Src="Images/rn1.jpg"></IMG>
+</p>
+<p Align="Centre">
+	<IMG Src="Images/rn2.jpg"></IMG>
+</p>
+<p Align="Centre">
+	<IMG Src="Images/rtr1.jpg"></IMG>
+</p>
+<p Align="Centre">
+	<IMG Src="Images/rb1.jpg"></IMG>
+</p>
+<p Align="Centre">
+	<IMG Src="Images/rt1.jpg"></IMG>
+</p>
+<p Align="Centre">
+	<IMG Src="Images/rt2.jpg"></IMG>
+</p>
+
 ## Conclusion
 
 Data-to-Text Systems are extremely useful. Large amount of data is generated on daily basis and its hard for a human to handle such amount of data in less time. Data-to-Text Systems acts as a bridge between huge amount of available data and the hidden insights within.
